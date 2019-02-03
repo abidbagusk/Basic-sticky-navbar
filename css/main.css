@@ -40,6 +40,17 @@ body {
   text-align: center;
   background: #7c48f5;
   padding: 50px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+}
+.header .header__title {
+  font-size: 42px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.header .header__sub-title {
+  font-size: 24px;
+  margin-top: 0px;
 }
 
 /*# sourceMappingURL=main.css.map */
