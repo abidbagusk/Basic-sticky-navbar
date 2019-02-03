@@ -36,4 +36,10 @@ body {
   *zoom: 1;
 }
 
+.header {
+  text-align: center;
+  background: #7c48f5;
+  padding: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */
