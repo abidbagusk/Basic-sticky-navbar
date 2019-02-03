@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -9,20 +18,22 @@
  */
 .cf:before,
 .cf:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 /**
-   * For IE 6/7 only
-   * Include this rule to trigger hasLayout and contain floats.
-   */
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
 .cf {
-    *zoom: 1;
+  *zoom: 1;
 }
+
+/*# sourceMappingURL=main.css.map */

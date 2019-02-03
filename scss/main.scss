@@ -1,6 +1,6 @@
 // Import Partial CSS
-@import 'reset';
-@import 'clearfix';
+@import '../partials/_reset';
+@import '../partials/_clearfix';
 
 // Create Main Variable
 $main-color : #6927ff;
