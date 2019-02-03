@@ -4,6 +4,15 @@ window.onscroll = function () {
 };
 
 // Call navbar id
-let navbar = document.getElementById('navbar');
-// what is the navbar height from the top of the page
-let sticky = navbar.offsetTop();
+var navbar = document.getElementById('navbar');
+// what is the navbar height from the top of the page, use the offsetTop
+var sticky = navbar.offsetTop;
+
+function scroll() {
+    // check if current yPosition >= sticky
+    if (window.pageYOffset > sticky) {
+        navbar.classList.add('sticky');
+    } else {
+        navbar.classList.remove('sticky');
+    }
+};

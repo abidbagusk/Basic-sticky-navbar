@@ -16,6 +16,11 @@ sans-serif;
     width: 100%;
 }
 
+.sticky+.content {
+    padding-top: 30px;
+}
+
+
 // Header
 .header {
     text-align: center;

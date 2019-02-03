@@ -42,6 +42,10 @@ body {
   width: 100%;
 }
 
+.sticky + .content {
+  padding-top: 30px;
+}
+
 .header {
   text-align: center;
   background: #7c48f5;
