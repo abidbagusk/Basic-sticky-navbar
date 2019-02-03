@@ -9,6 +9,13 @@ $dark-color : #000000;
 $main-font: 'Open Sans',
 sans-serif;
 
+// Sticky Class
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 // Header
 .header {
     text-align: center;

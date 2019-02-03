@@ -36,6 +36,12 @@ body {
   *zoom: 1;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .header {
   text-align: center;
   background: #7c48f5;
