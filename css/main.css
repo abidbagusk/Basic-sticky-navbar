@@ -53,4 +53,23 @@ body {
   margin-top: 0px;
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: #6927ff;
+  max-height: 60px;
+}
+#navbar .navbar__brand {
+  color: #FFFFFF;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  border-right: 0.5px solid #b6a1e7;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.08);
+}
+#navbar .navbar__brand.navbar__brand:hover {
+  background: #4b0ddb;
+}
+
 /*# sourceMappingURL=main.css.map */

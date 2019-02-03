@@ -28,3 +28,25 @@ sans-serif;
         margin-top: 0px;
     }
 }
+
+// navbar
+#navbar {
+    overflow: hidden;
+    background-color: $main-color;
+    max-height: 60px;
+
+    .navbar__brand {
+        color: $bright-color;
+        text-decoration: none;
+        float: left;
+        display: block;
+        padding: 20px;
+        letter-spacing: .1em;
+        border-right: .5px solid #b6a1e7;
+        box-shadow: 0 6px 4px 0 hsla(0, 0%, 0%, 0.08);
+
+        &.navbar__brand:hover {
+            background: #4b0ddb;
+        }
+    }
+}
