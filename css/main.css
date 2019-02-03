@@ -72,4 +72,9 @@ body {
   background: #4b0ddb;
 }
 
+.content {
+  height: 100vh;
+  padding: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */
